@@ -1,0 +1,20 @@
+from sklearn.preprocessing import OrdinalEncoder
+
+encoder = OrdinalEncoder()
+df_breastCancer = [['Race', 1], ['Marital Status', 2], ['T Stage ', 3], ['N Stage', 4], ['6th Stage', 5], ['differentiate', 6], ['Grade', 7], ['A Stage', 8], ['Estrogen Status', 9], ['Progesterone Status', 10], ['Status;', 11]]
+
+encoder.fit(df_breastCancer)
+OrdinalEncoder()
+encoder.categories_
+[df_breastCancer(['Race','Marital Status','T Stage ','N Stage','6th Stage','differentiate','Grade','A Stage','Estrogen Status','Progesterone Status','Status;'], dtype=object), array([1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11], dtype=object)]
+encoder.transform([['Race', 1], ['Marital Status', 2], ['T Stage ', 3], ['N Stage', 4], ['6th Stage', 5], ['differentiate', 6], ['Grade', 7], ['A Stage', 8], ['Estrogen Status', 9], ['Progesterone Status', 10], ['Status;', 11]])
+df_breastCancer([[0., 11.],[1., 0.]])
+
+encoder.set_params(encoded_missing_value=-1).fit_transform(df_breastCancer)
+df_breastCancer([[ 1.,  0.],
+       [ 0.,  1.],
+       [ 0., -1.]])
+
+
+
+df_breastCancer.info()
