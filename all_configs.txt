@@ -1,0 +1,64 @@
+1: {'act': 'relu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+2: {'act': 'relu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+3: {'act': 'relu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+4: {'act': 'relu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+5: {'act': 'relu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+6: {'act': 'relu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+7: {'act': 'relu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+8: {'act': 'relu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+9: {'act': 'relu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+10: {'act': 'relu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+11: {'act': 'relu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+12: {'act': 'relu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+13: {'act': 'relu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+14: {'act': 'relu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+15: {'act': 'relu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+16: {'act': 'relu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+17: {'act': 'elu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+18: {'act': 'elu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+19: {'act': 'elu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+20: {'act': 'elu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+21: {'act': 'elu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+22: {'act': 'elu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+23: {'act': 'elu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+24: {'act': 'elu', 'b_size': 12, 'dout': [0.0, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+25: {'act': 'elu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+26: {'act': 'elu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+27: {'act': 'elu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+28: {'act': 'elu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [15, 11], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+29: {'act': 'elu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+30: {'act': 'elu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
+31: {'act': 'elu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': None, 'test_pct': 0.2} 
+
+32: {'act': 'elu', 'b_size': 12, 'dout': [0.1, 0.0], 'epochs': 150, 'init': 'he_uniform', 'layers': [30, 10], 'lr': 0.0001, 'noise': 0.0, 'num_classes': 1, 'reg': 0.001, 'test_pct': 0.2} 
+
