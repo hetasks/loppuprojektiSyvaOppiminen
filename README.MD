@@ -26,8 +26,7 @@ loppuprojekti
 │   3_model_diagnostics_and_predictions.ipynb
 │
 └───data
-└───gs_dnn_ensemble_20220311T0958
-└───gs_dnn_ensemble_20220321T0821
+└───gs_dnn_20231019T0938
 └───resources
 ```
 
@@ -35,14 +34,14 @@ ks. [raportti](./report.md).
 
 ## Tulokset
 
-Valitun mallin (ks. [1D-CNN-2](./gs_dnn_ensemble_20220321T0821/model_infos/1D-CNN-2.png) ja [summary](./gs_dnn_ensemble_20220321T0821/model_infos/1D-CNN-2_summary.txt)) suorituskyky evaluointidataa vastaan:
+Valitun mallin (./gs_dnn_20231019T0938) suorituskyky evaluointidataa vastaan:
 
-| TP | TN | FN | FP | ACC | PREC | REC | FSCORE
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| 21 | 21 | 0 | 0 | 1.00000 | 1.00000 | 1.00000 | 1.00000 |
+| TP  | TN  |  FN  | FP  |  ACC    |  PREC   |  REC    |  FSCORE |
+| :-: | :-: |  :-: | :-: |  :-:    |  :-:    |  :-:    |  :-:    |
+| 14  | 338 |  48  |  3  | 0.89345 | 0.22581 | 0.35443 | 1.00000 |
 
-Valitun mallin suorituskyky testidataa vastaan (@ th:0.75):
+Valitun mallin suorituskyky testidataa vastaan:
 
-| TP | TN | FN | FP | ACC | PREC | REC | FSCORE
-| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| 50 | 32 | 4 | 18 | 0.77885 | 0.71831 | 0.94444 | 0.81600 |
+| TP  | TN  |  FN |  FP |   ACC    |  PREC   |  REC    |  FSCORE |
+| :-: | :-: | :-: | :-: |   :-:    |  :-:    |  :-:    |  :-:    |
+| 14  | 338 |  48 |  3  | 0.87345  | 0.22581 | 0.35443 | 0.35443 |
